@@ -15,10 +15,10 @@ let userEmail; // undefined
 const id = Symbol("123");
 const anotherId = Symbol("123");
 // same value symbol are different
-console.log(id == anotherId);  // false
-console.log(id === anotherId);  // false
+console.log(id == anotherId); // false
+console.log(id === anotherId); // false
 
-const bigNumber = 33556575423154235123151n
+const bigNumber = 33556575423154235123151n;
 console.log(typeof bigNumber);
 
 // #################################################################
@@ -26,3 +26,18 @@ console.log(typeof bigNumber);
 // Reference (non primitive)
 // Array, Object, Function
 
+// Array
+const heros = ["Captain America", "Iron Man", "Thor"];
+
+// Object
+let myObject = {
+  name: "Yash",
+  age: "20",
+};
+
+// Function
+const myFunction = function () {
+  console.log("hello world");
+};
+
+console.log(typeof heros);
