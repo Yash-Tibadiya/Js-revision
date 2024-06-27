@@ -32,3 +32,35 @@ console.log(typeof stringNumber);
 
 // ****************************** Oprations ******************************
 
+let value = 3
+let negative = -value
+console.log(negative);
+
+// + - * / % **
+
+let str1 = "Yash"
+let str2 = " Tibadiya"
+
+let str3 = str1 + str2
+console.log(str3);
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 2);   // 122
+console.log(1 + 2 + "2");   // 32
+
+console.log(+true);
+console.log(+"");
+
+
+// FIXME: IMP
+// prefix postfix
+
+let counter = 100
+let diffCounter = ++counter // ++counter incriment value both side
+// output : 101 101
+//let diffCounter = counter++ // counter++ incriment value of counter only
+// output : 101 100
+
+console.log(counter);         
+console.log(diffCounter);
