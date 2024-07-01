@@ -1,12 +1,12 @@
 // conversion is use for to convert one datatype in other data type
 // Ex. number -> string
 //                               // after conversion
-let score = "33";           //type: number value: NaN
-// let score = "53abc";     //type: number value: 0
-// let score = null         //type: number value: NaN
+  let score = "33";         //type: number value: 33
+// let score = "53abc";     //type: number value: NaN
+// let score = null         //type: number value: 0
 // let score = undefined    //type: number value: NaN
 // let score = true         //type: number value: 1
-// let score = false         //type: number value: 0
+// let score = false        //type: number value: 0
 
 console.log(typeof score);
 console.log(typeof (score));
