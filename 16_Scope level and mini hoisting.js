@@ -22,3 +22,17 @@ if (true) {
 // console.log(UserName); // not run
 
 // child function can access parent function value
+
+// *************************************************************************
+
+console.log(addone(5));
+function addone(num) {
+  return num + 1;
+}
+// addone(5);
+
+// console.log(addtwo(5)); // Error: "no hoisting in function"
+const addtwo = function (num) {
+  return num + 2;
+};
+console.log(addtwo(5));
