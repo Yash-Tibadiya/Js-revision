@@ -102,7 +102,7 @@ let result2 = addNum(10, 2);
 
 //             |                |
 //             |________________|
-//             |    Three ()    |
+//             |     Three()    |
 //             |________________|
 //             |      Two()     |
 //             |________________|
@@ -111,4 +111,4 @@ let result2 = addNum(10, 2);
 //             |global execution|
 //             |________________|
 // call stack use LIFO (last in first out) method
-// so One() execut first
+// so Three() execut first
