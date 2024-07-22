@@ -15,6 +15,7 @@ while (Superhero < myArray.length) {
 }
 
 // do while
+
 let score = 1;
 // let score = 11;
 do {
