@@ -20,3 +20,11 @@ btn.forEach(function (button) {
     }
   });
 });
+
+// other solution
+
+// btn.forEach((button) => {
+//   button.addEventListener('click', (e) => {
+//     bd.style.backgroundColor = e.target.id
+//   })
+// })
