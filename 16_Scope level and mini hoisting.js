@@ -31,7 +31,7 @@ function addone(num) {
 }
 // addone(5);
 
-// console.log(addtwo(5)); // Error: "no hoisting in function"
+// console.log(addtwo(5)); // Error: "no hoisting in veriable function"
 const addtwo = function (num) {
   return num + 2;
 };
