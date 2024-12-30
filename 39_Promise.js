@@ -101,3 +101,5 @@ fetch('https://api.github.com/users/Yash-Tibadiya')
     console.log(data);
 })
 .catch((error) => console.log(error))
+
+// promise.all
