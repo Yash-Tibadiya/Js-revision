@@ -18,9 +18,7 @@ function User(email, password){
           this._password = value
       }
   })
-
 }
 
 const chai = new User("chai@chai.com", "chai")
-
 console.log(chai.email);
